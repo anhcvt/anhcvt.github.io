@@ -1,0 +1,22 @@
+on:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - master
+
+name: "Formatter"
+permissions: {}
+
+jobs:
+  write-good:
+    name: Write good
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - name: Install Write good
+        run: npm install -g write-good
+      - name: Write good
+        run: write-good *.md
+
