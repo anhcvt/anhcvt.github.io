@@ -10,7 +10,7 @@ Here's another paragraph. You can also use `inline code` like this.
 
 -   This is a bullet point.
 -   And another one.
--   Lists can be nested:
+-   We can use nested lists:
     -   Sub-bullet 1
     -   Sub-bullet 2
 
@@ -22,7 +22,7 @@ Here's another paragraph. You can also use `inline code` like this.
 
 ##### Heading 5
 
-> This is a blockquote. It can span multiple lines.
+> This is a blockquote. It can span lines.
 >
 > > And you can nest them too.
 
@@ -34,5 +34,4 @@ def my_function():
     print("Hello, world!")
 
 Test write-good.
-So the cat war stolen.
-
+The cat was stolen.
