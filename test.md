@@ -35,4 +35,4 @@ def my_function():
 
 Test write-good.
 So the cat war stolen.
-
+So the cat was stolen.
