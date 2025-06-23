@@ -7,5 +7,5 @@ marco () {
 }
 
 polo () {
-    cd "$(cat $saved_dir_path)" | return 
+    cd "$(cat "$saved_dir_path")" || return 
 }
